@@ -66,7 +66,7 @@ async function handleShare() {
   }, 100);
 }
 
-function hadleSize(e) {
+function handleSize(e) {
   size = e.target.value;
   generateQRCode();
 }
